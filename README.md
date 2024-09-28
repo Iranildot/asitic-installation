@@ -81,6 +81,30 @@ Replace <technology_name>.tek with the actual technology file you want to use (e
 
 After installation, the workspace is cleaned, and unnecessary files are deleted to keep the system tidy.
 
+## ASITIC example
+
+```
+ASITIC>  optsq
+
+Desired inductance and accuracy in percent (e.g. '2 5' for 2nH within 5%)? (nH) 1 1 
+
+Name? 10
+
+Length? 120
+
+Min/Step/Max Spacing? 2 1 10
+
+Min/Step/Max Width? 2 1 25
+
+Metal layer? met5
+
+Exit metal layer? met4
+
+Frequency? (GHz) 2.5
+```
+
+![Captura de tela de 2024-09-28 18-21-21](https://github.com/user-attachments/assets/e1d78ab0-09f4-42d6-89b4-16c8bd52ea54)
+
 ## Contribution
 
 Contributions are welcome! Feel free to submit issues or pull requests if you have improvements or fixes.
