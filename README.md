@@ -35,7 +35,7 @@ cd asitic-installation
 2. Make the Script Executable:
 
 bash
-chmod +x install-asitic-<Target distribution>.sh
+- chmod +x install-asitic-<Target distribution>.sh
 ```
 chmod +x install-asitic-ubuntu.sh
 ```
@@ -43,7 +43,7 @@ chmod +x install-asitic-ubuntu.sh
 3. Run the Script: Execute the script with superuser privileges:
 
 bash
-sudo ./install-asitic-<Target distribution>.sh
+- sudo ./install-asitic-<Target distribution>.sh
 ```
 sudo ./install-asitic-ubuntu.sh
 ```
