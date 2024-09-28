@@ -35,17 +35,17 @@ cd asitic-installation
 2. Make the Script Executable:
 
 bash
-```
 chmod +x install-asitic-<Target distribution>.sh
+```
 chmod +x install-asitic-ubuntu.sh
 ```
 
 3. Run the Script: Execute the script with superuser privileges:
 
 bash
-```
 sudo ./install-asitic-<Target distribution>.sh
-chmod +x install-asitic-ubuntu.sh
+```
+sudo ./install-asitic-ubuntu.sh
 ```
 
 4. Run ASITIC: After installation, you can run ASITIC using:
