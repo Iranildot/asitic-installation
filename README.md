@@ -27,8 +27,8 @@ This script automates the installation of the ASITIC software and its dependenci
 ```
 bash
 
-git clone https://github.com/yourusername/asitic-installation-script.git
-cd asitic-installation-script
+git clone git@github.com:Iranildot/asitic-instalation.git
+cd asitic-installation
 ```
 
 2. Make the Script Executable:
@@ -36,7 +36,7 @@ cd asitic-installation-script
 ```
 bash
 
-chmod +x install_asitic.sh
+chmod +x install.sh
 ```
 
 3. Run the Script: Execute the script with superuser privileges:
@@ -44,7 +44,7 @@ chmod +x install_asitic.sh
 ```
 bash
 
-sudo ./install_asitic.sh
+sudo ./install.sh
 ```
 
 4. Run ASITIC: After installation, you can run ASITIC using:
