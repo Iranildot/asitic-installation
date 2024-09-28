@@ -24,37 +24,30 @@ This script automates the installation of the ASITIC software and its dependenci
 
 1. Clone the Repository:
 
-```
 bash
 ```
-
 git clone git@github.com:Iranildot/asitic-instalation.git
 cd asitic-installation
 ```
 
 2. Make the Script Executable:
 
-```
 bash
 ```
-
 chmod +x install.sh
 ```
 
 3. Run the Script: Execute the script with superuser privileges:
 
-```
 bash
-``
-
+```
 sudo ./install.sh
 ```
 
 4. Run ASITIC: After installation, you can run ASITIC using:
 
-```
 bash
-
+```
 asitic <technology_name>.tek
 Replace <technology_name>.tek with the actual technology file you want to use (e.g., sky130.tek).
 ```
