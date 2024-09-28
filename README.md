@@ -26,6 +26,7 @@ This script automates the installation of the ASITIC software and its dependenci
 
 ```
 bash
+```
 
 git clone git@github.com:Iranildot/asitic-instalation.git
 cd asitic-installation
@@ -35,6 +36,7 @@ cd asitic-installation
 
 ```
 bash
+```
 
 chmod +x install.sh
 ```
@@ -43,6 +45,7 @@ chmod +x install.sh
 
 ```
 bash
+``
 
 sudo ./install.sh
 ```
