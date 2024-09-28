@@ -81,7 +81,9 @@ Replace <technology_name>.tek with the actual technology file you want to use (e
 
 After installation, the workspace is cleaned, and unnecessary files are deleted to keep the system tidy.
 
-## ASITIC example
+## ASITIC example (using sky130.tek)
+
+On the ASITIC terminal, run **optsq** to make a square inductor, and then provide the other information as follows.
 
 ```
 ASITIC>  optsq
