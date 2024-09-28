@@ -26,7 +26,7 @@ This script automates the installation of the ASITIC software and its dependenci
 
 bash
 ```
-git clone git@github.com:Iranildot/asitic-instalation.git
+git clone https://github.com/Iranildot/asitic-instalation.git
 cd asitic-installation
 ```
 
