@@ -1,7 +1,7 @@
 # ASITIC Installation Script
 ## Overview
 
-This script automates the installation of the ASITIC software and its dependencies on Ubuntu. ASITIC (Analysis and Simulation of Spiral Inductors and Transformers for ICs) is a tool used for analyzing and designing inductors and transformers integrated circuits. The script ensures that the required files are downloaded, decompressed, and set up properly for use.
+This script automates the installation of the ASITIC software and its dependencies on Linux-based operating system. ASITIC (Analysis and Simulation of Spiral Inductors and Transformers for ICs) is a tool used for analyzing and designing inductors and transformers integrated circuits. The script ensures that the required files are downloaded, decompressed, and set up properly for use.
 
 ![Captura de tela de 2024-09-28 18-21-46](https://github.com/user-attachments/assets/e91a486a-7f1d-4391-967b-47d30b8a9c38)
 
@@ -36,7 +36,7 @@ cd asitic-installation
 
 bash
 ```
-chmod +x install.sh
+chmod +x install-asitic-<Target distribution>.sh
 ```
 
 3. Run the Script: Execute the script with superuser privileges:
