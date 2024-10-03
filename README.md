@@ -26,7 +26,7 @@ This script automates the installation of the ASITIC software and its dependenci
 
 1. Clone the Repository:
 ```
-bash
+# bash
 git clone https://github.com/Iranildot/asitic-installation.git
 cd asitic-installation
 ```
@@ -34,7 +34,7 @@ cd asitic-installation
 2. Make the Script Executable:
   - chmod +x install-asitic-(Target distribution).sh
 ```
-bash
+# bash
 chmod +x install-asitic-ubuntu.sh
 ```
 
