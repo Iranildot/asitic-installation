@@ -18,42 +18,40 @@ This script automates the installation of the ASITIC software and its dependenci
 
 ## Prerequisites
 
-- A Linux-based operating system (Ubuntu or similar).
+- A Linux-based operating system (Ubuntu, CentOS 7 or similar).
 - Internet access to download the required files.
 - Superuser permissions to install packages and create directories.
 
 ## Usage
 
 1. Clone the Repository:
-
-bash
 ```
+bash
 git clone https://github.com/Iranildot/asitic-installation.git
 cd asitic-installation
 ```
 
 2. Make the Script Executable:
-
-bash
-- chmod +x install-asitic-(Target distribution).sh
+  - chmod +x install-asitic-(Target distribution).sh
 ```
+bash
 chmod +x install-asitic-ubuntu.sh
 ```
 
 3. Run the Script: Execute the script with superuser privileges:
-
-bash
-- sudo ./install-asitic-(Target distribution).sh
+  - sudo ./install-asitic-<target_distribution>.sh
 ```
+# bash
 sudo ./install-asitic-ubuntu.sh
 ```
 
 4. Run ASITIC: After installation, you can run ASITIC using:
-
-bash
+  - In this part is recommended that you run the following code inside ASITIC folder
+  - asitic_linux -t ./common<technology_name>.tek
+  - Replace <technology_name>.tek with the actual technology file you want to use (e.g., sky130.tek).
 ```
-asitic <technology_name>.tek
-Replace <technology_name>.tek with the actual technology file you want to use (e.g., sky130.tek).
+# bash
+asitic_linux -t ./common/tek/sky130.tek
 ```
 
 ## Suported technologies
