@@ -46,9 +46,13 @@ sudo ./install-asitic-ubuntu.sh
 ```
 
 4. Run ASITIC: After installation, you can run ASITIC using:
-  - In this part is recommended that you run the following code inside ASITIC folder
+  - In this step, you must run the following code inside ASITIC folder.
   - asitic_linux -t ./common<technology_name>.tek
   - Replace <technology_name>.tek with the actual technology file you want to use (e.g., sky130.tek).
+```
+# bash
+cd ASITIC
+```
 ```
 # bash
 asitic_linux -t ./common/tek/sky130.tek
