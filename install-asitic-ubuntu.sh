@@ -6,8 +6,6 @@ if [ "$(id -u)" -ne 0 ]; then
   exit 1
 fi
 
-cd $HOME
-
 # CREATING A WORKSPACE FOLDER
 echo "Creating ASITIC folder"
 mkdir ASITIC
