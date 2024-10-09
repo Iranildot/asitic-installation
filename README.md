@@ -32,7 +32,7 @@ cd asitic-installation
 ```
 
 2. Make the Script Executable:
-  - chmod +x install-asitic-(Target distribution).sh
+  - chmod +x install-asitic-<target_distribution>.sh
 ```
 # bash
 chmod +x install-asitic-ubuntu.sh
